@@ -36,10 +36,12 @@ p{
 .asistencia{
     font-style: italic;
     font-weight: bold;
+    margin-top: 20px;
 }
 #navbar{
     background-color: rgb(235 236 231); 
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-evenly; 
 }
 #navbar a{
     font-family: Arial, Helvetica, sans-serif; 
@@ -49,6 +51,14 @@ a{
 }
 #evento{
     text-align: center;
+}
+.direccion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.direccion div{
+    width: 300px;
 }
 #formulario{
     text-align: center;
@@ -74,6 +84,9 @@ a{
 }
 .icon{
     width: 50px;
+}
+.list-group{
+    display: flex;
 }
 footer p{
     text-align: end;
