@@ -5,10 +5,11 @@ body{
     font-family: 'Corinthia', cursive;
     font-size: 100px;
     text-align: center;
+    color: rgb(61 46 43);
 }
 .banner-img{
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.2;
 }
 #banner{
     position: relative;
@@ -25,13 +26,17 @@ h2{
     font-weight: bold;
     margin: 20px;
     font-size: 50px;
+    color: rgb(61 46 43);
 }
 
 h3{
     font-family: 'Corinthia', cursive;
+    font-size: 40px;
+    color: rgb(61 46 43);
 }
 p{
     font-family: 'Comic Neue';
+    color: rgb(61 46 43);
 }
 .asistencia{
     font-style: italic;
@@ -45,7 +50,7 @@ p{
 }
 #navbar a{
     font-family: Arial, Helvetica, sans-serif; 
-}
+    color: rgb(61 46 43);}
 a{
     font-family: 'Comic Neue';
 }
@@ -65,22 +70,28 @@ a{
 }
 #formulario a{
     text-decoration: none;
-    color: black; 
+    color: rgb(61 46 43);
 }
 #alojamientos{
     text-align: center;
 }
+.alojamientoscards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #instagram{
     text-align: center;
 }
 #instagram a{
     text-decoration: none;
-    color: black
+    color: rgb(61 46 43);
+    font-size: 30px;
 }
 .list-group{
     width: 300px;
     display: flex;
- 
+    padding-top: 10px;
 }
 .icon{
     width: 50px;
